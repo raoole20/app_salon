@@ -1,0 +1,22 @@
+{
+    "name": "raul/app-salon_php_mvc_js_sass",
+    "description": "Proyecto con sass, php, javaScritp y sql",
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "Controllers\\" : "./controllers", 
+            "Clases\\" : "./clases", 
+            "MVC\\" : "./" 
+        }
+    },
+    "authors": [
+        {
+            "name": "Raul Espina",
+            "email": "correo@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
